@@ -1,3 +1,4 @@
+<?php
 function callAPI_srag_tracking(){
 	$curl = curl_init();
 	$url = "http://ctyf.co.in/api/companyvehiclelatestinfo";
@@ -38,3 +39,4 @@ function callAPI_srag_tracking(){
 		$Angle = $response->Vehicle[$i]->Angle;
 	}
 }
+?>
