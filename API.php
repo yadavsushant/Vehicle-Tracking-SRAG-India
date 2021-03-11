@@ -1,5 +1,5 @@
 <?php
-function callAPI_srag_tracking(){
+function get_srag_tracking(){
 	$curl = curl_init();
 	$url = "http://ctyf.co.in/api/companyvehiclelatestinfo";
 	$data = array(
