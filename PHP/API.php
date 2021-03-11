@@ -34,7 +34,6 @@ function get_srag_tracking(){
 		$Ignition = $response->Vehicle[$i]->Ignition;
 		$Lat = $response->Vehicle[$i]->Lat;
 		$Long = $response->Vehicle[$i]->Long;
-		$lat_longi = $response->Vehicle[$i]->Lat.",".$response->Vehicle[$i]->Long;
 		$Speed = $response->Vehicle[$i]->Speed;
 		$Angle = $response->Vehicle[$i]->Angle;
 	}
